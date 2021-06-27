@@ -6,6 +6,23 @@
 			class="fas fa-calendar"></i></span>
 	</a>
 </li>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+	aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="col-lg-12">
+					<div id='wrap'>
+						<div id='calendar'></div>
+						<div style='clear: both'></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 function MyCalendar(data){
 		document.addEventListener('contextmenu', event => event.preventDefault());
 	   var date = new Date();
